@@ -2,12 +2,12 @@
   <div class="flex-grow-1">
     <div class="jumbotron mb-4">
       <h1 class="display-6">Jérémy SIMÉON</h1>
-      <p class="lead">Développeur Full-Stack JS à Paris</p>
+      <p class="lead"><b>Développeur Full-Stack JS</b> à <b>Paris</b></p>
       <hr class="my-4">
       <p>Vous avez une question ou un projet? N'hésitez pas à me contacter par mail à <a href="mailto:jeremy.simeon@gmail.com">jeremy.simeon@gmail.com</a></p>
     </div>
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-8 mb-3 mb-md-0">
         <h2 class="h4 mb-3">Expériences professionnelles</h2>
         <experience :experience="experience" v-for="(experience, index) in $store.state.experiences" :key="index"/>
         <h2 class="h4">Diplômes</h2>
