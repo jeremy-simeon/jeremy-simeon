@@ -10,6 +10,7 @@ const experiences = [
       { name: 'CSS', badge: 'badge-primary' },
       { name: 'JS', badge: 'badge-primary' },
       { name: 'Sails.js', badge: 'badge-secondary' },
+      { name: 'Nuxt.js', badge: 'badge-secondary' },
       { name: 'Vue.js', badge: 'badge-secondary' },
       { name: 'MongoDB', badge: 'badge-success' },
       { name: 'Linux', badge: 'badge-warning' },

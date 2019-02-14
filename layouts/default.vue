@@ -5,12 +5,13 @@
         <nuxt-link class="navbar-brand" :to="{ name: 'index' }">JS</nuxt-link>
       </header>
     </header>
-    <main class="container-fluid p-3 d-flex flex-grow-1">
+    <main class="container p-3 d-flex flex-grow-1">
       <nuxt/>
     </main>
     <footer class="w-100 bg-light">
       <div class="footer-copyright text-center py-3">
-        En construction
+        <a href="https://github.com/jeremy-simeon" target="_blank">GitHub</a> -
+        <a href="https://fr.linkedin.com/in/jeremysimeon" target="_blank">LinkedIn</a>
       </div>
     </footer>
   </div>
