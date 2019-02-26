@@ -24,7 +24,15 @@ module.exports = {
   modules: [
     ['@nuxtjs/axios'],
     ['bootstrap-vue/nuxt'],
-    ['@nuxtjs/google-analytics', { id: 'UA-134146097-1' }]
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-134146097-1'
+    }],
+    ['nuxt-fontawesome', {
+      imports: [{
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['faCodeBranch']
+      }]
+    }]
   ],
 
   /*

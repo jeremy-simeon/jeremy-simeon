@@ -83,6 +83,14 @@ const diplomas = [
   }
 ]
 
+const applications = [
+  {
+    name: 'GeoJSON',
+    url: 'https://geojson.jeremy-simeon.fr',
+    github: 'https://github.com/jeremy-simeon/geojson'
+  }
+]
+
 const langages = [
   'PHP', 'JS', 'CSS', 'HTML', 'SQL', 'NoSQL'
 ]
@@ -109,5 +117,5 @@ const skills = [
 
 export const state = () => ({
   experiences, diplomas, langages, frameworks, databases, systems,
-  softwares, skills
+  softwares, skills, applications
 })

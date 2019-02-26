@@ -29,9 +29,13 @@
             <items :items="$store.state.softwares" color="info"/>
           </div>
         </div>
-        <div class="card border-info">
+        <div class="card border-info mb-3">
           <h2 class="h6 card-header text-white bg-info">Compétences fonctionnelles</h2>
           <skills :items="$store.state.skills"/>
+        </div>
+        <div class="card border-dark">
+          <h2 class="h6 card-header text-white bg-dark">Applications</h2>
+          <applications :items="$store.state.applications"/>
         </div>
       </div>
     </div>
@@ -39,12 +43,13 @@
 </template>
 
 <script>
+import Applications from '@/components/Applications'
 import Experience from '@/components/Experience'
 import Diploma from '@/components/Diploma'
 import Skills from '@/components/Skills'
 import Items from '@/components/Items'
 
 export default {
-  components: { Experience, Diploma, Items, Skills }
+  components: { Experience, Diploma, Items, Skills, Applications }
 }
 </script>
