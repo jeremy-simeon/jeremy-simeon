@@ -32,12 +32,12 @@
             <items :items="$store.state.softwares" color="info"/>
           </div>
         </div>
-        <div class="card border-info mb-3">
-          <h2 class="h6 card-header text-white bg-info">Compétences fonctionnelles</h2>
+        <div class="card border-danger mb-3">
+          <h2 class="h6 card-header text-white bg-danger">Compétences fonctionnelles</h2>
           <skills :items="$store.state.skills"/>
         </div>
-        <div class="card border-dark">
-          <h2 class="h6 card-header text-white bg-dark">Applications</h2>
+        <div class="card border-info">
+          <h2 class="h6 card-header text-white bg-info">Applications</h2>
           <applications :items="$store.state.applications"/>
         </div>
       </div>
