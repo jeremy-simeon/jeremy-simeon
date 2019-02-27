@@ -4,7 +4,10 @@
       <h1 class="display-6">Jérémy SIMÉON</h1>
       <p class="lead"><b>Développeur Full-Stack JS</b> à <b>Paris</b></p>
       <hr class="my-4">
-      <p>Vous avez une question ou un projet? N'hésitez pas à me contacter par mail à <a href="mailto:jeremy.simeon@gmail.com">jeremy.simeon@gmail.com</a></p>
+      <p>
+        Vous avez une question ou un projet? N'hésitez pas à me contacter par
+        mail à <a href="mailto:jeremy.simeon@gmail.com">jeremy.simeon@gmail.com</a>
+      </p>
     </div>
     <div class="row">
       <div class="col-md-8 mb-3 mb-md-0">

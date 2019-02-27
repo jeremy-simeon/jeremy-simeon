@@ -23,9 +23,12 @@ module.exports = {
 
   modules: [
     ['@nuxtjs/axios'],
-    ['bootstrap-vue/nuxt'],
     ['@nuxtjs/google-analytics', {
       id: 'UA-134146097-1'
+    }],
+    ['bootstrap-vue/nuxt', {
+      bootstrapCSS: false,
+      bootstrapVueCSS: false
     }],
     ['nuxt-fontawesome', {
       imports: [{
