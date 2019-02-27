@@ -26,6 +26,9 @@ module.exports = {
     ['@nuxtjs/google-analytics', {
       id: 'UA-134146097-1'
     }],
+    ['@nuxtjs/moment', {
+      locales: ['fr']
+    }],
     ['bootstrap-vue/nuxt', {
       bootstrapCSS: false,
       bootstrapVueCSS: false
