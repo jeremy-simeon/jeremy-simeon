@@ -4,7 +4,7 @@
       <h3 class="h5 card-title">{{ experience.name }}</h3>
       <p class="card-subtitle mb-2 text-muted">
         <a class="font-weight-bold" :href="experience.url" target="_blank">{{ experience.company }}</a>
-        <small>{{ date(experience.start) }} - {{ date(experience.end) }} ({{ difference(experience.start, experience.end) }} mois)</small>
+        <small>{{ date(experience.start) }} - {{ date(experience.end) }} ({{ difference(experience.start, experience.end) + 1 }} mois)</small>
       </p>
       <p class="card-text">
         <span class="badge mr-1" :class="technology.badge" v-for="(technology, index) in experience.technologies" :key="index">
