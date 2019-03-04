@@ -10,7 +10,8 @@ module.exports = {
     title: 'Jérémy SIMEON - Développeur Full-Stack JS',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'description', content: 'Développeur Full-Stack JS à Paris. Visitez mon site web pour plus d\'informations sur mes différentes expérience et pour me contacter.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
