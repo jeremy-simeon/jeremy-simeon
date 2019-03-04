@@ -1,11 +1,11 @@
 <template>
   <div class="min-vh-100 d-flex flex-column">
     <header>
-      <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-dark bg-dark">
         <nuxt-link class="navbar-brand" :to="{ name: 'index' }">JS</nuxt-link>
-      </header>
+      </nav>
     </header>
-    <main class="container p-3 d-flex flex-grow-1">
+    <main class="main container p-3 d-flex flex-grow-1">
       <nuxt/>
     </main>
     <footer class="w-100 bg-light">
