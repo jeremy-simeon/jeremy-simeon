@@ -2,7 +2,7 @@
   <div class="min-vh-100 d-flex flex-column">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-dark bg-dark">
-        <nuxt-link class="navbar-brand" :to="{ name: 'index' }">JS</nuxt-link>
+        <nuxt-link class="navbar-brand" :to="{ name: 'index' }">Jérémy SIMEON</nuxt-link>
       </nav>
     </header>
     <main class="main container p-3 d-flex flex-grow-1">
