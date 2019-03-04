@@ -78,8 +78,8 @@ const diplomas = [
     name: 'Diplôme d\'ingénieur généraliste',
     school: 'ESIGELEC',
     url: 'http://www.esigelec.fr',
-    start: '2011-01-01',
-    end: '2016-01-01'
+    start: '2011-09-01',
+    end: '2016-04-01'
   }
 ]
 
