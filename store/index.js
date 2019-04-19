@@ -9,6 +9,7 @@ const experiences = [
       { name: 'HTML', badge: 'badge-primary' },
       { name: 'CSS', badge: 'badge-primary' },
       { name: 'JS', badge: 'badge-primary' },
+      { name: 'Node.js', badge: 'badge-primary' },
       { name: 'Sails.js', badge: 'badge-secondary' },
       { name: 'Nuxt.js', badge: 'badge-secondary' },
       { name: 'Vue.js', badge: 'badge-secondary' },
@@ -92,7 +93,7 @@ const applications = [
 ]
 
 const langages = [
-  'PHP', 'JS', 'CSS', 'HTML', 'SQL', 'NoSQL'
+  'Node.js', 'PHP', 'JS', 'CSS', 'HTML', 'SQL', 'NoSQL'
 ]
 
 const frameworks = [
