@@ -3,7 +3,7 @@
  */
 
 @import "~bootstrap/scss/functions";
-@import "variables";
+@import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 // @import "~bootstrap/scss/root";
 @import "~bootstrap/scss/reboot";
@@ -45,11 +45,3 @@
  */
 
 // @import '~bootstrap-vue/src/index.scss';
-
-/*
- * App
- */
-
-.main {
-  margin-top: 65px;
-}

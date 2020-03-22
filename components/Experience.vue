@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="card mb-3">
+  <div class="card mb-3" :class="{ 'border-primary': first }">
     <div class="card-body">
       <h3 class="h5 card-title">{{ experience.name }}</h3>
       <p class="card-subtitle mb-2 text-muted">
@@ -22,6 +22,10 @@ export default {
   props: {
     experience: {
       type: Object,
+      required: true
+    },
+    first: {
+      type: Boolean,
       required: true
     }
   },

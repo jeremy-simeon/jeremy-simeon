@@ -16,3 +16,5 @@
     </footer>
   </div>
 </template>
+
+<style lang="scss" src="./default.scss" scoped/>

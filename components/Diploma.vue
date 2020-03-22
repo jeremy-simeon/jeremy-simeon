@@ -4,7 +4,7 @@
       <h3 class="h5 card-title">{{ diploma.name }}</h3>
       <p class="card-subtitle mb-2 text-muted">
         <a class="font-weight-bold" :href="diploma.url" target="_blank">{{ diploma.school }}</a>
-        <small>{{ date(diploma.start) }} - {{ date(diploma.end) }}</small>
+        <small>{{ date(diploma.end) }}</small>
       </p>
     </div>
   </div>
@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     date (date) {
-      return date ? moment(date).format('YYYY-MM') : 'aujourd\'hui'
+      return date ? moment(date).format('YYYY') : 'aujourd\'hui'
     }
   }
 }
