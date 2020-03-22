@@ -17,7 +17,7 @@ const experiences = [
       { name: 'Linux', badge: 'badge-warning' },
       { name: 'VS Code', badge: 'badge-info' },
       { name: 'Trello', badge: 'badge-info' },
-      { name: 'Notion', badge: 'badge-info' }
+      { name: 'Slack', badge: 'badge-info' }
     ]
   },
   {
@@ -123,7 +123,7 @@ const systems = [
 ]
 
 const softwares = [
-  'Gitlab', 'Jira', 'ActiveCollab', 'Atom', 'PhpStorm', 'VS Code', 'Trello', 'Notion'
+  'Gitlab', 'Jira', 'ActiveCollab', 'Atom', 'PhpStorm', 'VS Code', 'Trello', 'Slack'
 ]
 
 const skills = [
